@@ -3,7 +3,7 @@ CREATE DATABASE college_db;
 
 USE college_db;
 
-CREATE TABLE Students (
+CREATE TABLE IF NOT EXISTS Students (
     StudentID INT PRIMARY KEY,
     Name VARCHAR(50) NOT NULL,
     Age INT,
